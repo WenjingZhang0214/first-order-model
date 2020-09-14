@@ -120,7 +120,7 @@ if __name__ == "__main__":
     parser.add_argument("--best_frame", dest="best_frame", type=int, default=None,  
                         help="Set frame to start from.")
  
-    parser.add_argument("--cpu", dest="cpu", action="store_true", help="cpu mode.")
+    parser.add_argument("--cpu", dest="cpu", action="store_false", help="cpu mode.")
  
 
     parser.set_defaults(relative=False)
